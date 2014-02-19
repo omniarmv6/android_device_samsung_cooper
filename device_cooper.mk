@@ -24,6 +24,9 @@ BOARD_WLAN_DEVICE := ath6kl_compat
 PRODUCT_PACKAGES += \
     Torch
 
+# OmniTorch
+PRODUCT_PACKAGES += OmniTorch
+	
 ## Ramdisk
 PRODUCT_COPY_FILES += \
     device/samsung/cooper/ramdisk/COOPER.rle:root/COOPER.rle
